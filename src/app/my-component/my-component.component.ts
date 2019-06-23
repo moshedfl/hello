@@ -14,7 +14,7 @@ export class MyComponentComponent implements OnInit {
   }
 
   sayHello() {
-    console.log('hello,'+ this.name)
+    alert('hello,'+ this.name)
   }
 
   ngOnInit() {
